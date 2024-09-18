@@ -171,7 +171,7 @@ const SignUpSignIn = () => {
             </h2>
             <form onSubmit={signUpWithEmail}>
               <div className="input-wrapper">
-                <p>Full Name</p>
+                <p>Name</p>
                 <input
                   type="text"
                   placeholder="Ansh Gupta"
