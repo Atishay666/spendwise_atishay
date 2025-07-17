@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+🔗 **Live Demo:** [SpendWise](https://66eb312f1f336d8db28a09e8--glistening-bavarois-d04429.netlify.app)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![image](https://github.com/user-attachments/assets/37f7a961-73f4-4616-be7e-f1100b1cc550)
