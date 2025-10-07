@@ -103,4 +103,4 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ## Contact
 
-For questions or feedback, open an issue or contact [your-email@example.com](atishay4969@gmail.com).
+For questions or feedback, open an issue or contact [my email](atishay4969@gmail.com).
