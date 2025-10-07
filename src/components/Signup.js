@@ -120,7 +120,7 @@ const SignUpSignIn = () => {
                 <p>Email</p>
                 <input
                   type="email"
-                  placeholder="anshgupta@gmail.com"
+                  placeholder="atishay4969@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -130,7 +130,7 @@ const SignUpSignIn = () => {
                 <p>Password</p>
                 <input
                   type="password"
-                  placeholder="Ansh123"
+                  placeholder="Atishay123"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -174,7 +174,7 @@ const SignUpSignIn = () => {
                 <p>Name</p>
                 <input
                   type="text"
-                  placeholder="Ansh Gupta"
+                  placeholder="Atishay Jain"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -183,7 +183,7 @@ const SignUpSignIn = () => {
                 <p>Email</p>
                 <input
                   type="email"
-                  placeholder="anshgupta@gmail.com"
+                  placeholder="atishay4969@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -193,7 +193,7 @@ const SignUpSignIn = () => {
                 <p>Password</p>
                 <input
                   type="password"
-                  placeholder="Ansh123"
+                  placeholder="Atishay123"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -203,7 +203,7 @@ const SignUpSignIn = () => {
                 <p>Confirm Password</p>
                 <input
                   type="password"
-                  placeholder="Ansh123"
+                  placeholder="Atishay123"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                 />
