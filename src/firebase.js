@@ -9,13 +9,12 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCOebgZ0kVDPPIV7tmfurESZU3g2QrBBRE",
-  authDomain: "spendwise-7a0f2.firebaseapp.com",
-  projectId: "spendwise-7a0f2",
-  storageBucket: "spendwise-7a0f2.appspot.com",
-  messagingSenderId: "674803860298",
-  appId: "1:674803860298:web:fcabec72a89effbba037b3",
-  measurementId: "G-7X8B00HFG0"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+     authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+     projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+     storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+     messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+     appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app); // Initialize Firestore and assign it to `db`
