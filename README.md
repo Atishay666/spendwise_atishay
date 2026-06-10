@@ -75,11 +75,19 @@ SpendWise/
 
 ## Firebase Setup
 
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
-2. Replace the config in [`src/firebase.js`](src/firebase.js) with your credentials.
+1. Create a personal Firebase project at the [Firebase Console](https://console.firebase.google.com/).
+2. Enable **Google Authentication** and spin up a **Firestore Database** in test mode.
+3. Create a `.env` file in the root directory of this project.
+4. Add your personal Firebase SDK keys using the following environment layout:
 
----
-
+```env
+REACT_APP_FIREBASE_API_KEY="your_api_key"
+REACT_APP_FIREBASE_AUTH_DOMAIN="your_project.firebaseapp.com"
+REACT_APP_FIREBASE_PROJECT_ID="your_project_id"
+REACT_APP_FIREBASE_STORAGE_BUCKET="your_project.appspot.com"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID="your_sender_id"
+REACT_APP_FIREBASE_APP_ID="your_app_id"
+REACT_APP_FIREBASE_MEASUREMENT_ID="your_measurement_id"
 ## Scripts
 
 - `npm start` — Run development server
@@ -87,6 +95,7 @@ SpendWise/
 - `npm run build` — Build for production
 - `npm run eject` — Eject configuration
 
+```
 ---
 
 ## License
