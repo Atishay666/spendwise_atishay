@@ -179,7 +179,7 @@ const Dashboard = () => {
         transactionsArray.push(doc.data());
       });
       setTransactions(transactionsArray);
-      toast.success("Transactions Fetched!");
+     // toast.success("Transactions Fetched!");
     }
     setLoading(false);
   }
@@ -223,7 +223,6 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container">
-      <Header />
       {loading ? (
         <Loader />
       ) : (
